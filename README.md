@@ -50,7 +50,7 @@ const oxken = {
     alias: "0xKen",
     location: "Indonesia 🇮🇩",
     company: "Reon Tech Id",
-    website: "reontech.xyz",
+    website: "luthfidev.my.id",
     roles: ["Full Stack Developer", "Content Creator", "Founder"],
     currentFocus: "Building amazing web applications",
     funFact: "I code, I create, I conquer 🚀"
@@ -75,9 +75,9 @@ const oxken = {
 
   [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/LuthfiAlv)
   [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/luthfialv7)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luthfi-alfaridz-fahmi-254758186/)
-  [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/xzuanrest)
-  [![Website](https://img.shields.io/badge/Website-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white)](http://reontech.xyz)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luthfialv7)
+  [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/0xKen)
+  [![Website](https://img.shields.io/badge/Website-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white)](http://luthfidev.my.id)
 
 </div>
 
