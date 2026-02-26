@@ -119,12 +119,17 @@ const oxken = {
 <!-- Menghasilkan kartu SVG yang otomatis update setiap kali     -->
 <!-- halaman profil di-load (bukan via cron, tapi real-time!)    -->
 <!--                                                             -->
+<!-- PENTING: URL default (github-readme-stats.vercel.app)       -->
+<!-- sering ERROR karena terlalu banyak yang pakai (rate-limited) -->
+<!-- Solusi: deploy sendiri atau pakai mirror yang lebih sepi     -->
+<!--                                                             -->
 <!-- Parameter penting:                                          -->
 <!--   username= → username GitHub kamu                          -->
 <!--   theme=   → tema warna kartu                               -->
 <!--   show_icons=true → tampilkan icon                          -->
 <!--   hide_border=true → sembunyikan border                     -->
 <!--   count_private=true → hitung juga repo private             -->
+<!--   cache_seconds=1800 → cache 30 menit (kurangi API calls)   -->
 
 <br />
 
@@ -133,12 +138,12 @@ const oxken = {
 <div align="center">
 
   <!-- Stats Card — menampilkan total stars, commits, PRs, issues -->
-  <img src="https://github-readme-stats.vercel.app/api?username=xinnxz&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=xinnxz&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800" width="49%" alt="GitHub Stats" />
   
   <!-- Top Languages — pie chart bahasa yang paling sering dipakai -->
   <!-- layout=compact → tampilan ringkas (bukan bar chart)         -->
   <!-- langs_count=8  → tampilkan max 8 bahasa                     -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xinnxz&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="49%" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=xinnxz&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=1800" width="49%" alt="Top Languages" />
 
 </div>
 
@@ -175,7 +180,10 @@ const oxken = {
 
 <div align="center">
 
-  <img src="https://github-profile-trophy.vercel.app/?username=xinnxz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" alt="Trophies" />
+  <!-- CATATAN: Jika URL trophy error, coba ganti ke:             -->
+  <!-- https://github-profile-trophy.vercel.app (original)         -->
+  <!-- https://github-trophies.vercel.app (mirror)                 -->
+  <img src="https://github-trophies.vercel.app/?username=xinnxz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" alt="Trophies" />
 
 </div>
 
