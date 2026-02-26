@@ -1,0 +1,80 @@
+# ═══════════════════════════════════════════════════════════════
+# 🐍 CONTRIBUTION SNAKE ANIMATION WORKFLOW
+# ═══════════════════════════════════════════════════════════════
+# 
+# Workflow ini menggenerate animasi ular yang "memakan"
+# contribution graph kamu. Hasilnya berupa file SVG yang
+# disimpan di branch 'output'.
+#
+# CARA KERJA:
+# 1. Workflow berjalan setiap hari (atau manual trigger)
+# 2. Mengambil data contribution graph dari GitHub API
+# 3. Generate SVG animasi (dark mode & light mode)
+# 4. Push SVG ke branch 'output'
+# 5. README.md menampilkan SVG dari branch tersebut
+#
+# PENJELASAN TOOL:
+# Menggunakan action: Platane/snk@v3
+# Repository: https://github.com/Platane/snk
+# Ini adalah tool open-source yang populer untuk generate
+# contribution snake animation.
+
+name: 🐍 Generate Snake Animation
+
+on:
+  # Setiap hari jam 01:00 UTC (08:00 WIB)
+  schedule:
+    - cron: '0 1 * * *'
+  
+  # Manual trigger untuk testing
+  workflow_dispatch:
+
+  # Juga jalankan saat push ke main (agar langsung generate)
+  push:
+    branches:
+      - main
+
+# Izin untuk push ke branch output
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # ── Generate SVG animasi ──
+      # Platane/snk@v3 = action yang menggenerate snake animation
+      # github_user_name = username GitHub target
+      # outputs = file output yang dihasilkan
+      #
+      # Dua versi dibuat:
+      # 1. github-snake.svg      → untuk light mode
+      # 2. github-snake-dark.svg → untuk dark mode
+      #
+      # <picture> tag di README akan otomatis pilih versi
+      # yang sesuai dengan theme browser pengunjung
+      - name: 🐍 Generate snake animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: xinnxz
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # ── Push SVG ke branch 'output' ──
+      # crazy-max/ghaction-github-pages@v4 = action untuk push
+      # file ke branch tertentu (tanpa mengganggu branch main)
+      #
+      # target_branch=output → push ke branch bernama 'output'
+      # build_dir=dist       → folder yang berisi file SVG
+      #
+      # Branch 'output' akan dibuat otomatis jika belum ada
+      - name: 📤 Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
