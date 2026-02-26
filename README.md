@@ -1,212 +1,173 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- 🎨 GITHUB PROFILE README — xinnxz (0xKen)                    -->
+<!-- 🎮 THEME: CYBERPUNK NEON                                      -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- PENJELASAN:                                                    -->
-<!-- File ini menggunakan campuran Markdown + HTML.                 -->
-<!-- GitHub mendukung HTML di README untuk layout yang lebih keren. -->
-<!-- <div align="center"> = membuat konten di tengah halaman        -->
-<!-- <img src="..."> = menampilkan gambar/SVG dari URL external     -->
-<!-- <a href="..."> = membuat link yang bisa diklik                 -->
+<!-- PALET WARNA CYBERPUNK:                                        -->
+<!--   Background : #0a0a0a (hitam pekat)                          -->
+<!--   Neon Cyan  : #00ffff (biru terang)                          -->
+<!--   Neon Magenta: #ff00ff (pink keunguan)                       -->
+<!--   Neon Green : #00ff41 (hijau matrix)                         -->
+<!--   Hot Pink   : #ff3366 (merah pink terang)                    -->
+<!--   Purple     : #bd00ff (ungu neon)                            -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 🎬 SECTION 1: ANIMATED HEADER                              -->
+<!-- 🎬 SECTION 1: CYBERPUNK HEADER                             -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- readme-typing-svg = library yang menghasilkan SVG animasi   -->
-<!-- typing effect. Parameter:                                   -->
-<!--   font=  → jenis font                                      -->
-<!--   size=  → ukuran font                                     -->
-<!--   pause= → jeda antar teks (ms)                            -->
-<!--   color= → warna teks (hex)                                -->
-<!--   center=true → posisi tengah                              -->
-<!--   vCenter=true → vertikal tengah                           -->
-<!--   width= → lebar SVG                                       -->
-<!--   lines= → teks yang ditampilkan bergantian                 -->
+<!-- capsule-render: type=waving membuat efek gelombang          -->
+<!-- color=gradient → warna gradasi dari kiri ke kanan           -->
+<!-- 0: = posisi 0% (kiri), 50: = tengah, 100: = kanan          -->
+<!-- fontColor = warna teks utama                                -->
+<!-- descColor = warna teks deskripsi                            -->
+<!-- animation=twinkling → efek berkedip seperti neon            -->
 
 <div align="center">
   
-  <!-- Banner Image — gradient header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=0xKen&fontSize=80&fontColor=58a6ff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Content%20Creator%20%7C%20Founder&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+  <!-- Banner — Gradient neon cyberpunk -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00ff,25:bd00ff,50:00ffff,75:00ff41,100:ff3366&height=230&section=header&text=0xKen&fontSize=90&fontColor=00ffff&fontAlignY=33&desc=⚡%20Full%20Stack%20Developer%20%7C%20Content%20Creator%20%7C%20Founder%20⚡&descSize=18&descColor=ff00ff&descAlignY=56&animation=twinkling" width="100%" />
 
-  <!-- Animated Typing -->
-  <!-- PENJELASAN: Setiap "lines=" dipisahkan ; akan bergantian muncul -->
+  <!-- Animated Typing — warna neon cyan -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Assalamualaikum+%F0%9F%91%8B+Saya+Luthfi;Full+Stack+Developer+%F0%9F%92%BB;Content+Creator+%F0%9F%8E%AC;Founder+of+Reon+Tech+Id+%F0%9F%9A%80;Always+Learning+New+Things+%F0%9F%93%9A" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=700&lines=%F0%9F%91%BE+Assalamualaikum%2C+I'm+0xKen;%F0%9F%92%BB+Full+Stack+Developer;%F0%9F%8E%AC+Content+Creator+%40YouTube;%F0%9F%9A%80+Founder+of+Reon+Tech+Id;%F0%9F%94%A5+Code+%E2%80%A2+Create+%E2%80%A2+Conquer" alt="Typing SVG" />
   </a>
 
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 📝 SECTION 2: ABOUT ME                                     -->
+<!-- 📝 SECTION 2: ABOUT ME — style terminal/hacker              -->
 <!-- ─────────────────────────────────────────────────────────── -->
 
 <br />
 
-## 🧑‍💻 About Me
+<div align="center">
+  <img src="https://img.shields.io/badge/-%F0%9F%94%B0%20SYSTEM%20BOOT%20COMPLETE-00ff41?style=for-the-badge&labelColor=0a0a0a" />
+</div>
+
+<br />
+
+## ⚡ `> whoami`
 
 ```javascript
+// ═══════════════════════════════════════════
+// 🔓 ACCESS GRANTED — WELCOME TO THE MATRIX
+// ═══════════════════════════════════════════
+
 const oxken = {
     name: "Luthfi Alfaridz Fahmi",
     alias: "0xKen",
+    class: "Full Stack Developer",
     location: "Indonesia 🇮🇩",
-    company: "Reon Tech Id",
+    org: "Reon Tech Id",
     website: "luthfidev.my.id",
-    roles: ["Full Stack Developer", "Content Creator", "Founder"],
-    currentFocus: "Building amazing web applications",
-    funFact: "I code, I create, I conquer 🚀"
+    skills: ["Frontend", "Backend", "DevOps", "Content Creation"],
+    motto: "Code • Create • Conquer 🚀",
+    status: "ONLINE �"
 };
 ```
 
-- 🔭 Sedang mengerjakan project di **Reon Tech Id**
-- 🌱 Selalu belajar teknologi baru
-- 💬 Tanya saya tentang **JavaScript, React, Node.js, PHP**
-- ⚡ Fun fact: Saya juga **Content Creator** di YouTube!
+- 🔭 Building the future at **Reon Tech Id**
+- 🌱 Always leveling up my skills
+- 💬 Ask me about **JavaScript, React, Node.js, PHP, Laravel**
+- ⚡ Also a **Content Creator** on YouTube!
+- 🎮 Cyberpunk enthusiast & tech lover
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 📱 SECTION 3: SOCIAL LINKS                                 -->
+<!-- 📱 SECTION 3: SOCIAL LINKS — neon badges                   -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- shields.io = service pembuatan badge/shield gratis          -->
-<!-- Format: https://img.shields.io/badge/LABEL-COLOR?params     -->
-<!--   style=for-the-badge → style badge yang tebal              -->
-<!--   logo= → icon dari Simple Icons (simpleicons.org)          -->
-<!--   logoColor=white → warna icon putih                        -->
+<!-- labelColor=0a0a0a → background gelap agar badge neon       -->
+<!-- Setiap badge pakai warna neon yang berbeda                  -->
 
 <div align="center">
 
-  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/LuthfiAlv)
-  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/luthfialv7)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luthfialv7)
-  [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/0xKen)
-  [![Website](https://img.shields.io/badge/Website-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white)](http://luthfidev.my.id)
+  [![YouTube](https://img.shields.io/badge/YouTube-FF3366?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0a0a0a)](https://youtube.com/LuthfiAlv)
+  [![Instagram](https://img.shields.io/badge/Instagram-bd00ff?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0a0a0a)](https://instagram.com/luthfialv7)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-00ffff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0a)](https://www.linkedin.com/in/luthfialv7)
+  [![X](https://img.shields.io/badge/X-ff00ff?style=for-the-badge&logo=x&logoColor=white&labelColor=0a0a0a)](https://x.com/0xXinn)
+  [![Website](https://img.shields.io/badge/Website-00ff41?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0a0a0a)](http://luthfidev.my.id)
 
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
 <!-- 💻 SECTION 4: TECH STACK                                   -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- skillicons.dev = service yang menyediakan icon tech stack   -->
-<!-- yang lebih bagus dan konsisten dibanding shields.io         -->
-<!-- Format: https://skillicons.dev/icons?i=js,react,node,...    -->
-<!--   i= → daftar icon yang dipisahkan koma                    -->
-<!--   theme=dark → tema gelap                                   -->
-<!--   perline=10 → jumlah icon per baris                        -->
 
 <br />
 
-## 🛠️ Tech Stack
+## 🛠️ `> tech_stack --list`
 
 <div align="center">
 
   <!-- Languages -->
+  <p><b>「 Languages 」</b></p>
   <img src="https://skillicons.dev/icons?i=js,ts,php,python,html,css,java&theme=dark" alt="Languages" />
   
-  <br />
+  <br /><br />
   
   <!-- Frameworks & Libraries -->
+  <p><b>「 Frameworks & Libraries 」</b></p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,tailwind,bootstrap&theme=dark" alt="Frameworks" />
   
-  <br />
+  <br /><br />
   
   <!-- Tools & Platforms -->
+  <p><b>「 Tools & Platforms 」</b></p>
   <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,mysql,mongodb,firebase,vercel&theme=dark" alt="Tools" />
 
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 📊 SECTION 5: GITHUB STATS                                 -->
+<!-- 📊 SECTION 5: GITHUB STATS — tema radical (neon)           -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- github-readme-stats = library oleh anuraghazra              -->
-<!-- Menghasilkan kartu SVG yang otomatis update setiap kali     -->
-<!-- halaman profil di-load (bukan via cron, tapi real-time!)    -->
-<!--                                                             -->
-<!-- PENTING: URL default (github-readme-stats.vercel.app)       -->
-<!-- sering ERROR karena terlalu banyak yang pakai (rate-limited) -->
-<!-- Solusi: deploy sendiri atau pakai mirror yang lebih sepi     -->
-<!--                                                             -->
-<!-- Parameter penting:                                          -->
-<!--   username= → username GitHub kamu                          -->
-<!--   theme=   → tema warna kartu                               -->
-<!--   show_icons=true → tampilkan icon                          -->
-<!--   hide_border=true → sembunyikan border                     -->
-<!--   count_private=true → hitung juga repo private             -->
-<!--   cache_seconds=1800 → cache 30 menit (kurangi API calls)   -->
+<!-- Menggunakan custom colors yang match cyberpunk theme         -->
+<!-- title_color=00ffff → judul warna cyan neon                  -->
+<!-- icon_color=ff00ff → icon warna magenta neon                  -->
+<!-- text_color=00ff41 → teks warna hijau neon                    -->
+<!-- ring_color → warna lingkaran di streak stats                 -->
 
 <br />
 
-## 📊 GitHub Stats
+## 📊 `> git stats --verbose`
 
 <div align="center">
 
-  <!-- Stats Card — menampilkan total stars, commits, PRs, issues -->
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=xinnxz&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=xinnxz&show_icons=true&hide_border=true&count_private=true&bg_color=0a0a0a&title_color=00ffff&icon_color=ff00ff&text_color=00ff41&border_color=00ffff&cache_seconds=1800" width="49%" alt="GitHub Stats" />
   
-  <!-- Top Languages — pie chart bahasa yang paling sering dipakai -->
-  <!-- layout=compact → tampilan ringkas (bukan bar chart)         -->
-  <!-- langs_count=8  → tampilkan max 8 bahasa                     -->
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=xinnxz&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=1800" width="49%" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=xinnxz&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=00ffff&text_color=00ff41&border_color=00ffff&langs_count=8&cache_seconds=1800" width="49%" alt="Top Languages" />
 
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 🔥 SECTION 6: STREAK STATS                                 -->
+<!-- 🔥 SECTION 6: STREAK STATS — neon styling                  -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- github-readme-streak-stats = oleh DenverCoder1              -->
-<!-- Menampilkan:                                                -->
-<!--   - Current Streak (berapa hari berturut-turut commit)      -->
-<!--   - Longest Streak (rekor streak terpanjang)                -->
-<!--   - Total Contributions (total semua kontribusi)            -->
-<!-- Juga auto-update setiap kali halaman di-load                -->
 
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=xinnxz&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" width="70%" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=xinnxz&hide_border=true&background=0a0a0a&stroke=00ffff&ring=ff00ff&fire=ff3366&currStreakLabel=00ffff&sideLabels=00ffff&currStreakNum=00ff41&sideNums=00ff41&dates=bd00ff" width="70%" alt="GitHub Streak" />
 
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
 <!-- 🏆 SECTION 7: GITHUB TROPHIES                              -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- github-profile-trophy = oleh ryo-ma                         -->
-<!-- Menampilkan trophy berdasarkan achievements di GitHub:       -->
-<!--   - Stars, Commits, PRs, Issues, Followers, Repos, dll     -->
-<!-- Parameter:                                                  -->
-<!--   column=  → jumlah kolom                                   -->
-<!--   margin-w= → margin horizontal antar trophy                -->
-<!--   no-frame=true → tanpa frame                               -->
 
 <br />
 
-## 🏆 GitHub Trophies
+## 🏆 `> achievements --all`
 
 <div align="center">
 
-  <!-- CATATAN: Jika URL trophy error, coba ganti ke:             -->
-  <!-- https://github-profile-trophy.vercel.app (original)         -->
-  <!-- https://github-trophies.vercel.app (mirror)                 -->
-  <img src="https://github-trophies.vercel.app/?username=xinnxz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" alt="Trophies" />
+  <!-- theme=darkhub → dark theme yang cocok dengan cyberpunk    -->
+  <img src="https://github-trophies.vercel.app/?username=xinnxz&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" alt="Trophies" />
 
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 🐍 SECTION 8: CONTRIBUTION SNAKE ANIMATION                 -->
+<!-- 🐍 SECTION 8: CONTRIBUTION SNAKE                           -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- Ini adalah animasi SVG yang menampilkan ular "memakan"      -->
-<!-- contribution graph kamu. SVG ini di-generate oleh            -->
-<!-- GitHub Actions dan disimpan sebagai file di branch output.   -->
-<!--                                                             -->
-<!-- Cara kerja:                                                 -->
-<!-- 1. GitHub Actions berjalan setiap hari                      -->
-<!-- 2. Mengambil data contribution graph dari API GitHub         -->
-<!-- 3. Generate SVG animasi ular                                -->
-<!-- 4. Push SVG ke branch 'output'                              -->
-<!-- 5. README menampilkan SVG dari branch tersebut              -->
-<!--                                                             -->
-<!-- CATATAN: Animasi ini memerlukan workflow snake.yml           -->
-<!-- yang akan kita buat setelah README ini selesai.              -->
 
 <br />
 
-## 🐍 Contribution Snake
+## 🐍 `> watch snake.exe`
 
 <div align="center">
   
@@ -219,55 +180,36 @@ const oxken = {
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 📈 SECTION 9: ACTIVITY GRAPH                               -->
+<!-- 📈 SECTION 9: ACTIVITY GRAPH — neon colors                 -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- github-readme-activity-graph = oleh Ashutosh00710           -->
-<!-- Menampilkan grafik aktivitas commit dalam bentuk line chart  -->
-<!-- yang keren dan futuristik. Auto-update setiap load.         -->
 
 <br />
 
-## 📈 Activity Graph
+## 📈 `> activity_monitor`
 
 <div align="center">
   
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xinnxz&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area_color=58a6ff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xinnxz&bg_color=0a0a0a&color=00ffff&line=ff00ff&point=00ff41&area_color=bd00ff&area=true&hide_border=true&custom_title=⚡%20Contribution%20Activity%20⚡" width="100%" alt="Activity Graph" />
 
 </div>
 
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- 👀 SECTION 10: PROFILE VIEWS COUNTER                       -->
+<!-- 👀 SECTION 10: PROFILE VIEWS + FOOTER                      -->
 <!-- ─────────────────────────────────────────────────────────── -->
-<!-- komarev.com = service counter pengunjung profil             -->
-<!-- Setiap orang yang membuka profil GitHub kamu, counter naik  -->
 
 <br />
 
 <div align="center">
   
-  <img src="https://komarev.com/ghpvc/?username=xinnxz&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=xinnxz&style=for-the-badge&color=ff00ff&label=PROFILE+VIEWS&labelColor=0a0a0a" alt="Profile Views" />
+  
+  <br /><br />
+  
+  <img src="https://img.shields.io/badge/-%E2%9A%A1%20POWERED%20BY%20CAFFEINE%20%26%20CODE%20%E2%9A%A1-00ffff?style=for-the-badge&labelColor=0a0a0a" />
 
 </div>
 
-<!-- ─────────────────────────────────────────────────────────── -->
-<!-- 🎵 FOOTER                                                  -->
-<!-- ─────────────────────────────────────────────────────────── -->
-<!-- capsule-render = oleh kyechan99                              -->
-<!-- Membuat header/footer dengan efek wave gradient             -->
-<!-- section=footer → posisi di bawah (kebalikan dari header)    -->
-
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" width="100%" />
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 💡 CATATAN TEKNIS:                                            -->
-<!--                                                               -->
-<!-- Semua stats (GitHub Stats, Streak, Trophies, Activity Graph)  -->
-<!-- OTOMATIS UPDATE setiap kali halaman profil di-load.           -->
-<!-- Tidak perlu GitHub Actions untuk itu — service-nya yang       -->
-<!-- mengambil data real-time dari GitHub API.                     -->
-<!--                                                               -->
-<!-- Yang butuh GitHub Actions HANYA: Contribution Snake           -->
-<!-- Karena SVG-nya perlu di-generate dan disimpan ke branch.      -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- Footer — gradient neon cyberpunk -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff3366,25:ff00ff,50:bd00ff,75:00ffff,100:00ff41&height=120&section=footer" width="100%" />
