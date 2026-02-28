@@ -1,0 +1,155 @@
+# ═══════════════════════════════════════════════════════════════
+# 🔄 AUTO-UPDATE WORKFLOW — Keep Repo Always Active
+# ═══════════════════════════════════════════════════════════════
+#
+# TUJUAN:
+# Workflow ini menjaga repo xinnxz/xinnxz selalu "recently updated"
+# sehingga repo ini muncul di urutan paling atas di daftar repositories.
+#
+# CARA KERJA:
+# 1. Workflow berjalan setiap hari jam 00:00 UTC (07:00 WIB)
+# 2. Mengupdate file lastUpdated.json dengan timestamp terbaru
+# 3. Commit & push perubahan otomatis
+# 4. Repo terlihat aktif → muncul di urutan atas
+#
+# PENJELASAN CRON:
+# ┌───────────── menit (0)
+# │ ┌─────────── jam (0 = 00:00 UTC = 07:00 WIB)
+# │ │ ┌───────── hari dalam bulan (* = setiap hari)
+# │ │ │ ┌─────── bulan (* = setiap bulan)
+# │ │ │ │ ┌───── hari dalam minggu (* = setiap hari)
+# │ │ │ │ │
+# 0 0 * * *
+#
+# PENTING:
+# - Workflow ini TIDAK akan mengganggu branch main
+# - Commit message bervariasi agar terlihat natural
+# - File yang diupdate hanya lastUpdated.json (ringan)
+
+name: 🔄 Auto Update Profile
+
+on:
+  # ── Jadwal Otomatis ──
+  # Setiap hari jam 00:00 UTC (07:00 WIB)
+  schedule:
+    - cron: '0 0 * * *'
+
+  # ── Manual Trigger ──
+  # Untuk testing, bisa dijalankan manual dari tab Actions
+  workflow_dispatch:
+
+# Izin untuk push perubahan
+permissions:
+  contents: write
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # ── Step 1: Checkout Repository ──
+      # Mengambil kode dari repo agar bisa dimodifikasi
+      # fetch-depth: 0 = ambil semua history (agar git log works)
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── Step 2: Update lastUpdated.json ──
+      # Menggunakan Node.js inline script untuk:
+      # - Generate timestamp saat ini
+      # - Pilih random motivational quote
+      # - Hitung total updates yang sudah dilakukan
+      # - Tulis ke file lastUpdated.json
+      - name: 🔄 Update timestamp
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = 'lastUpdated.json';
+
+          // ── Baca file existing (jika ada) ──
+          let data = { totalUpdates: 0, history: [] };
+          try {
+            data = JSON.parse(fs.readFileSync(path, 'utf8'));
+          } catch (e) {
+            // File belum ada, pakai default
+          }
+
+          // ── Daftar quotes motivasi ──
+          // Ini dipakai sebagai commit message agar bervariasi
+          const quotes = [
+            '🚀 Keep pushing forward',
+            '💻 Code. Learn. Repeat.',
+            '🔥 Another day, another commit',
+            '⚡ Consistency is key',
+            '🎯 Staying on track',
+            '🌟 Building something great',
+            '📈 Growing every day',
+            '🧠 Knowledge compounds daily',
+            '💪 No days off',
+            '🌱 Planting seeds for tomorrow',
+            '🔧 Refining the craft',
+            '🎨 Creating with passion',
+            '🏗️ Building the future',
+            '📚 Always learning',
+            '✨ Making progress'
+          ];
+
+          // ── Pilih quote random ──
+          const quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+          // ── Update data ──
+          const now = new Date();
+          data.lastUpdated = now.toISOString();
+          data.totalUpdates = (data.totalUpdates || 0) + 1;
+          data.lastQuote = quote;
+
+          // ── Simpan history (max 30 entries terakhir) ──
+          // Kita batasi 30 agar file tidak terlalu besar
+          data.history = data.history || [];
+          data.history.unshift({
+            date: now.toISOString().split('T')[0],
+            time: now.toTimeString().split(' ')[0],
+            quote: quote,
+            updateNumber: data.totalUpdates
+          });
+          data.history = data.history.slice(0, 30);
+
+          // ── Tulis ke file ──
+          fs.writeFileSync(path, JSON.stringify(data, null, 2));
+          console.log('✅ Updated lastUpdated.json');
+          console.log('   Quote:', quote);
+          console.log('   Total updates:', data.totalUpdates);
+
+          // ── Simpan quote ke file sementara ──
+          // File ini dibaca oleh shell script di bawah untuk commit message
+          fs.writeFileSync('/tmp/commit_msg.txt', quote);
+          "
+
+          # ── Commit & Push ──
+          # Menggunakan git commands untuk:
+          # - Set identitas bot
+          # - Add file yang berubah
+          # - Commit dengan quote random sebagai message (dari /tmp/commit_msg.txt)
+          # - Push ke branch main
+          #
+          # CATATAN PENTING:
+          # - 'git diff --quiet' mengecek apakah ada perubahan
+          # - Jika tidak ada perubahan (seharusnya tidak terjadi), skip commit
+          # - Email menggunakan noreply GitHub agar tidak spam
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add lastUpdated.json
+
+          COMMIT_MSG=$(cat /tmp/commit_msg.txt)
+
+          # Cek apakah ada perubahan yang perlu di-commit
+          if git diff --cached --quiet; then
+            echo "⏭️ No changes to commit"
+          else
+            git commit -m "$COMMIT_MSG"
+            git push
+            echo "✅ Changes committed and pushed!"
+          fi
