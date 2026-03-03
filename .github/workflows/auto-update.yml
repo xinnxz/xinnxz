@@ -138,8 +138,10 @@ jobs:
           # - 'git diff --quiet' mengecek apakah ada perubahan
           # - Jika tidak ada perubahan (seharusnya tidak terjadi), skip commit
           # - Email menggunakan noreply GitHub agar tidak spam
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          # Pakai email & username GitHub kamu agar commit
+          # tercatat di contribution graph (kotak hijau)
+          git config --local user.email "43901910+xinnxz@users.noreply.github.com"
+          git config --local user.name "xinnxz"
 
           git add lastUpdated.json
 
