@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🎨 GITHUB PROFILE README — xinnxz (0xKen)                    -->
+<!-- GITHUB PROFILE README — xinnxz (0xKen)                       -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -9,7 +9,7 @@
 
   <!-- ── Animated Typing SVG ── -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=%E2%9C%A8+Hey+there%2C+I'm+Luthfi!;%F0%9F%9A%80+Building+the+future%2C+one+commit+at+a+time;%F0%9F%92%A1+Turning+ideas+into+reality+with+code;%F0%9F%8E%AF+Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=Hey+there%2C+I'm+Luthfi!;Building+the+future%2C+one+commit+at+a+time;Turning+ideas+into+reality+with+code;Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
   </a>
 
   <!-- ── Quick Badges ── -->
@@ -27,46 +27,59 @@
 
 <br />
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;About Me
+
+<table>
+  <tr>
+    <td width="55%">
 
 ```typescript
 const oxken: Developer = {
     name      : "Luthfi Alfaridz Fahmi",
     alias     : "0xKen",
-    location  : "Indonesia 🇮🇩",
+    location  : "Indonesia",
     company   : "Reon Tech Id",
     website   : "luthfidev.my.id",
-    roles     : ["Full Stack Developer", "Content Creator", "Founder"],
-    languages : ["JavaScript", "TypeScript", "PHP", "Python", "Java"],
-    
-    currentlyWorking: "Scaling projects at Reon Tech Id",
-    currentlyLearning: "System Design & Cloud Architecture",
-    askMeAbout: ["Web Dev", "React", "Node.js", "PHP", "Tech Business"],
-    
+    roles     : [
+        "Full Stack Developer",
+        "Content Creator",
+        "Founder"
+    ],
+    languages : [
+        "JavaScript", "TypeScript",
+        "PHP", "Python", "Java"
+    ],
     motto: "Code it. Ship it. Iterate."
 };
 ```
 
+  </td>
+    <td width="45%" align="center">
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="coding" />
+    </td>
+  </tr>
+</table>
+
 <table>
   <tr>
-    <td>🔭</td>
+    <td><img src="https://img.icons8.com/nolan/20/telescope.png" width="20"/></td>
     <td>Currently building amazing things at <strong>Reon Tech Id</strong></td>
   </tr>
   <tr>
-    <td>🌱</td>
+    <td><img src="https://img.icons8.com/nolan/20/plant-under-sun.png" width="20"/></td>
     <td>Always exploring new technologies & frameworks</td>
   </tr>
   <tr>
-    <td>🎬</td>
+    <td><img src="https://img.icons8.com/nolan/20/video-camera.png" width="20"/></td>
     <td>Creating tech content on <strong>YouTube</strong></td>
   </tr>
   <tr>
-    <td>💬</td>
+    <td><img src="https://img.icons8.com/nolan/20/chat.png" width="20"/></td>
     <td>Ask me about <strong>JavaScript, React, Node.js, PHP, Laravel</strong></td>
   </tr>
   <tr>
-    <td>⚡</td>
-    <td>Fun fact: I believe <strong>great code</strong> is written with <strong>great coffee</strong> ☕</td>
+    <td><img src="https://img.icons8.com/nolan/20/coffee.png" width="20"/></td>
+    <td>Fun fact: Great code is written with great coffee</td>
   </tr>
 </table>
 
@@ -74,23 +87,33 @@ const oxken: Developer = {
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## 🛠️ &nbsp;Tech Arsenal
+## <img src="https://media2.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif" width="25"> &nbsp;Tech Arsenal
 
 <div align="center">
 
-  <h4>💻 Languages</h4>
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4b0c-b894-45c305554a03.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="80">
+
+  <br /><br />
+
+  <h4><img src="https://img.icons8.com/nolan/25/code.png" width="20"/> &nbsp;Languages</h4>
 
   <img src="https://skillicons.dev/icons?i=js,ts,php,python,java,html,css&theme=dark" alt="Languages" />
 
-  <h4>⚙️ Frameworks & Libraries</h4>
+  <h4><img src="https://img.icons8.com/nolan/25/settings.png" width="20"/> &nbsp;Frameworks & Libraries</h4>
   
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,tailwind,bootstrap&theme=dark" alt="Frameworks" />
 
-  <h4>🗄️ Databases & Cloud</h4>
+  <h4><img src="https://img.icons8.com/nolan/25/database.png" width="20"/> &nbsp;Databases & Cloud</h4>
 
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,supabase,vercel,cloudflare&theme=dark" alt="Databases" />
 
-  <h4>🔧 Tools & Platforms</h4>
+  <h4><img src="https://img.icons8.com/nolan/25/wrench.png" width="20"/> &nbsp;Tools & Platforms</h4>
 
   <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,postman,linux&theme=dark" alt="Tools" />
 
@@ -100,7 +123,7 @@ const oxken: Developer = {
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## 📊 &nbsp;GitHub Analytics
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> &nbsp;GitHub Analytics
 
 <div align="center">
 
@@ -119,7 +142,7 @@ const oxken: Developer = {
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## 🏆 &nbsp;Achievements
+## <img src="https://media.giphy.com/media/3orifgYbnsq43eFsdO/giphy.gif" width="25"> &nbsp;Achievements
 
 <div align="center">
   
@@ -131,7 +154,7 @@ const oxken: Developer = {
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## 🐍 &nbsp;Contribution Snake
+## <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="25"> &nbsp;Contribution Snake
 
 <div align="center">
   
@@ -147,7 +170,7 @@ const oxken: Developer = {
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## 📈 &nbsp;Activity Graph
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="25"> &nbsp;Activity Graph
 
 <div align="center">
   
@@ -168,6 +191,12 @@ const oxken: Developer = {
 <br />
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="95%">
+</div>
+
+<br />
 
 <div align="center">
 
