@@ -62,23 +62,23 @@ const oxken: Developer = {
 
 <table>
   <tr>
-    <td><img src="https://img.icons8.com/nolan/20/telescope.png" width="20"/></td>
+    <td><img src="https://img.shields.io/badge/-%E2%9C%A6-6C63FF?style=flat-square&logoColor=white" height="18"/></td>
     <td>Currently building amazing things at <strong>Reon Tech Id</strong></td>
   </tr>
   <tr>
-    <td><img src="https://img.icons8.com/nolan/20/plant-under-sun.png" width="20"/></td>
+    <td><img src="https://img.shields.io/badge/-%E2%9C%A6-3F51B5?style=flat-square&logoColor=white" height="18"/></td>
     <td>Always exploring new technologies & frameworks</td>
   </tr>
   <tr>
-    <td><img src="https://img.icons8.com/nolan/20/video-camera.png" width="20"/></td>
+    <td><img src="https://img.shields.io/badge/-%E2%9C%A6-00BCD4?style=flat-square&logoColor=white" height="18"/></td>
     <td>Creating tech content on <strong>YouTube</strong></td>
   </tr>
   <tr>
-    <td><img src="https://img.icons8.com/nolan/20/chat.png" width="20"/></td>
+    <td><img src="https://img.shields.io/badge/-%E2%9C%A6-26C6DA?style=flat-square&logoColor=white" height="18"/></td>
     <td>Ask me about <strong>JavaScript, React, Node.js, PHP, Laravel</strong></td>
   </tr>
   <tr>
-    <td><img src="https://img.icons8.com/nolan/20/coffee.png" width="20"/></td>
+    <td><img src="https://img.shields.io/badge/-%E2%9C%A6-6C63FF?style=flat-square&logoColor=white" height="18"/></td>
     <td>Fun fact: Great code is written with great coffee</td>
   </tr>
 </table>
@@ -91,30 +91,26 @@ const oxken: Developer = {
 
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80">
-  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80">
-  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80">
-  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80">
-  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4b0c-b894-45c305554a03.gif" width="80">
-  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="80">
-  <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="80">
+  <img src="https://img.shields.io/badge/-Languages-6C63FF?style=for-the-badge&logoColor=white" />
+  <br /><br />
+  <img src="https://skillicons.dev/icons?i=js,ts,php,python,java,html,css&theme=dark" alt="Languages" />
 
   <br /><br />
 
-  <h4><img src="https://img.icons8.com/nolan/25/code.png" width="20"/> &nbsp;Languages</h4>
-
-  <img src="https://skillicons.dev/icons?i=js,ts,php,python,java,html,css&theme=dark" alt="Languages" />
-
-  <h4><img src="https://img.icons8.com/nolan/25/settings.png" width="20"/> &nbsp;Frameworks & Libraries</h4>
-  
+  <img src="https://img.shields.io/badge/-Frameworks%20%26%20Libraries-3F51B5?style=for-the-badge&logoColor=white" />
+  <br /><br />
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,laravel,tailwind,bootstrap&theme=dark" alt="Frameworks" />
 
-  <h4><img src="https://img.icons8.com/nolan/25/database.png" width="20"/> &nbsp;Databases & Cloud</h4>
+  <br /><br />
 
+  <img src="https://img.shields.io/badge/-Databases%20%26%20Cloud-00BCD4?style=for-the-badge&logoColor=white" />
+  <br /><br />
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,supabase,vercel,cloudflare&theme=dark" alt="Databases" />
 
-  <h4><img src="https://img.icons8.com/nolan/25/wrench.png" width="20"/> &nbsp;Tools & Platforms</h4>
+  <br /><br />
 
+  <img src="https://img.shields.io/badge/-Tools%20%26%20Platforms-26C6DA?style=for-the-badge&logoColor=white" />
+  <br /><br />
   <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,postman,linux&theme=dark" alt="Tools" />
 
 </div>
