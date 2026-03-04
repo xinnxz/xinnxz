@@ -10,7 +10,7 @@
   <!-- ── Animated Typing SVG ── -->
   <br />
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=110&lines=Hey+there%2C+I'm+Luthfi!;Building+the+future%2C+one+commit+at+a+time;Turning+ideas+into+reality+with+code;Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=90&lines=Hey+there%2C+I'm+Luthfi!;Building+the+future%2C+one+commit+at+a+time;Turning+ideas+into+reality+with+code;Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
   </a>
 
   <!-- ── Quick Badges ── -->
