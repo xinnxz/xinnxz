@@ -10,7 +10,7 @@
   <!-- ── Animated Typing SVG ── -->
   <br />
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=130&lines=Hey+there%2C+I'm+Luthfi!;Building+the+future%2C+one+commit+at+a+time;Turning+ideas+into+reality+with+code;Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=110&lines=Hey+there%2C+I'm+Luthfi!;Building+the+future%2C+one+commit+at+a+time;Turning+ideas+into+reality+with+code;Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
   </a>
 
   <!-- ── Quick Badges ── -->
@@ -96,7 +96,6 @@ const oxken: Developer = {
   <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80">
   <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80">
   <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80">
-  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4b0c-b894-45c305554a03.gif" width="80">
   <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="80">
   <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="80">
 
