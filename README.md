@@ -5,15 +5,16 @@
 <div align="center">
 
   <!-- ── Animated Gradient Header ── -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,25:3F51B5,50:00BCD4,75:26C6DA,100:6C63FF&height=250&section=header&text=0xKen&fontSize=90&fontColor=ffffff&fontAlignY=33&desc=Full%20Stack%20Developer%20%E2%80%A2%20Content%20Creator%20%E2%80%A2%20Founder&descSize=20&descColor=d4e0ff&descAlignY=55&animation=twinkling" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,25:3F51B5,50:00BCD4,75:26C6DA,100:6C63FF&height=200&section=header&text=0xKen&fontSize=90&fontColor=ffffff&fontAlignY=30&desc=Full%20Stack%20Developer%20%E2%80%A2%20Content%20Creator%20%E2%80%A2%20Founder&descSize=20&descColor=d4e0ff&descAlignY=52&animation=twinkling" width="100%" />
 
   <!-- ── Animated Typing SVG ── -->
+  <br />
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=Hey+there%2C+I'm+Luthfi!;Building+the+future%2C+one+commit+at+a+time;Turning+ideas+into+reality+with+code;Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=70&lines=Hey+there%2C+I'm+Luthfi!;Building+the+future%2C+one+commit+at+a+time;Turning+ideas+into+reality+with+code;Focused+on+crafting+elegant+solutions" alt="Typing SVG" />
   </a>
 
   <!-- ── Quick Badges ── -->
-  <br />
+  <br /><br />
   
   [![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](http://luthfidev.my.id)
   [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/LuthfiAlv)
@@ -90,6 +91,16 @@ const oxken: Developer = {
 ## <img src="https://media2.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif" width="25"> &nbsp;Tech Arsenal
 
 <div align="center">
+
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4b0c-b894-45c305554a03.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="80">
+  <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="80">
+
+  <br /><br />
 
   <img src="https://img.shields.io/badge/-Languages-6C63FF?style=for-the-badge&logoColor=white" />
   <br /><br />
