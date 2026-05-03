@@ -39,7 +39,7 @@ const oxken: Developer = {
     name      : "Luthfi Alfaridz Fahmi",
     alias     : "0xKen",
     location  : "Indonesia",
-    company   : "Reon Tech Id",
+    company   : "Founder & CTO @ GoTani Labs",
     website   : "luthfidev.my.id",
     roles     : [
         "Full Stack Developer",
